@@ -1,0 +1,30 @@
+.card {
+  padding: 25px 15px;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 50%;
+  box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+  border-radius: 0;
+  border: 0;
+  z-index: 999;
+
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.1s ease-in-out;
+}
+
+@media (max-width:768px){
+  .card{
+    flex-flow:column;
+    flex-direction: column;
+    position: static;
+    margin-right:70%;
+    align-items: center;
+    
+  }
+
+  
+}

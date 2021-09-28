@@ -1,0 +1,65 @@
+.content {
+  background-color: #35D6ED;
+  align-items: center;
+  height: 20rem;
+  width: 100vw;
+  padding:6rem 0 10rem 0;
+  position:relative
+  
+}
+
+.content-heading h1 {
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  padding: 50px 30px 50px 30px;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: white;
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+
+.content-middle p {
+  height: 5rem;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 30rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border:none;
+}
+
+button {
+  border-radius: 25px;
+  text-align: center;
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color:#ff7f00;
+  ;
+}
+
+.fa-heart:hover {
+  color:red;
+}
